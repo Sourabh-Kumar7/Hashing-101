@@ -56,14 +56,12 @@ This repository provides an overview of different hashing techniques used in var
 
 ## Contribution
 
-Feel free to contribute to this repository by adding more hashing techniques, code examples, or explanations for each technique. Your contributions will help others learn and understand different hashing methods and their use cases. If you have improvements or new hashing algorithms to share, consider creating a pull request.
-
-## How You Can Help
-
-If you find this repository useful or interesting, please consider giving it a star to show your appreciation. Additionally, we welcome your contributions and suggestions. If you have improvements or want to introduce new hashing algorithms, feel free to create a pull request.
+Feel free to contribute to this repository by adding more hashing techniques, code examples, or explanations for each technique. Your contributions will help others learn and understand different hashing methods and their use cases.
 
 ## License
 
 This repository is open-source and available under the [MIT License](LICENSE). You are encouraged to use, modify, and distribute the content in compliance with the license terms.
+
+Don't forget to give this repository a star if you find it useful!
 
 Happy hashing!
