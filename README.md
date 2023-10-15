@@ -59,7 +59,7 @@ This repository provides an overview of different hashing techniques used in var
 - Description: Blake2 is a high-speed cryptographic hash function known for its security and efficiency. It's suitable for various applications.
 - Usage: Cryptography, checksums, data integrity verification.
 
-### 6. SHA-256 (Secure Hash Algorithm 256-bit)
+### 6. [SHA-256 (Secure Hash Algorithm 256-bit)](https://github.com/Sourabh-Kumar7/Hashing-101/blob/main/docs/sha256.md)
 
 - Description: SHA-256 is a widely used hashing algorithm that provides a high level of security. It's suitable for general cryptographic purposes.
 - Usage: Cryptography, data integrity verification.
