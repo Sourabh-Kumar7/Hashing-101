@@ -1,5 +1,35 @@
 # Hashing-101
 
+Hashing is the process of scrambling raw information to the extent that it cannot be reversed to its original form. It takes a piece of information and passes it through a function that performs mathematical operations on the plaintext. This function is called the hash function, and the output is known as the hash value or digest.
+
+<p align="center">
+  <img src="images/hashing101_1.png" alt="Hash Function">
+</p>
+
+As depicted in the image above, the hash function is responsible for converting plaintext into its respective hash digest. These digests are designed to be irreversible, meaning they should not provide you with the original plaintext through any means.
+
+Hash functions also ensure consistency, meaning they produce the same output value if the input remains unchanged, regardless of the number of iterations.
+
+## Primary Applications of Hashing
+
+### 1. Password Hashes
+
+In most website servers, user passwords are converted into hash values before being stored on the server. During login, the server recalculates the hash value and compares it to the one stored in the database for validation.
+
+<p align="center">
+  <img src="images/hashing101_2.png" alt="Password Hashes">
+</p>
+
+### 2. Integrity Verification
+
+When a file is uploaded to a website, its hash is often shared alongside it. When a user downloads the file, they can recalculate the hash and compare it to ensure data integrity.
+
+<p align="center">
+  <img src="images/hashing101_3.png" alt="Integrity Verification">
+</p>
+
+## About This Repository
+
 This repository provides an overview of different hashing techniques used in various applications. Hashing is a fundamental concept in computer science, cryptography, and data processing. Here, we'll explore some of the most common hashing algorithms and their key details.
 
 ## Hashing Techniques
@@ -65,3 +95,54 @@ This repository is open-source and available under the [MIT License](LICENSE). Y
 Don't forget to give this repository a star if you find it useful!
 
 Happy hashing!
+
+
+[//]: # (hashing-101/  &#40;Folder&#41;)
+
+[//]: # (|-- README.md  &#40;File&#41;)
+
+[//]: # (|-- requirements.txt  &#40;File&#41;)
+
+[//]: # (|-- examples/  &#40;Folder&#41;)
+
+[//]: # (|   |-- example1.py  &#40;File&#41;)
+
+[//]: # (|   |-- example2.py  &#40;File&#41;)
+
+[//]: # (|   |-- ...  &#40;Other example files&#41;)
+
+[//]: # (|-- src/  &#40;Folder&#41;)
+
+[//]: # (|   |-- hash_algorithms/  &#40;Package&#41;)
+
+[//]: # (|   |   |-- md5.py  &#40;File&#41;)
+
+[//]: # (|   |   |-- sha1.py  &#40;File&#41;)
+
+[//]: # (|   |   |-- sha256.py  &#40;File&#41;)
+
+[//]: # (|   |   |-- ...  &#40;Other algorithm files&#41;)
+
+[//]: # (|   |-- utils/  &#40;Package&#41;)
+
+[//]: # (|   |   |-- validation.py  &#40;File&#41;)
+
+[//]: # (|   |-- hashing.py  &#40;File&#41;)
+
+[//]: # (|-- tests/  &#40;Folder&#41;)
+
+[//]: # (|   |-- test_md5.py  &#40;File&#41;)
+
+[//]: # (|   |-- test_sha1.py  &#40;File&#41;)
+
+[//]: # (|   |-- test_sha256.py  &#40;File&#41;)
+
+[//]: # (|   |-- ...  &#40;Other test files&#41;)
+
+[//]: # (|-- docs/  &#40;Folder&#41;)
+
+[//]: # (|   |-- algorithm1.md  &#40;File&#41;)
+
+[//]: # (|   |-- algorithm2.md  &#40;File&#41;)
+
+[//]: # (|   |-- ...  &#40;Other algorithm documentation files&#41;)
